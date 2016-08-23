@@ -235,14 +235,14 @@ void homepage(int ch_id,int tempc, int tempf, int range) {
   Header =  "HTTP/1.1 200 OK\r\n";
   Header += "Content-Type: text/html\r\n";
   Header += "Connection: close\r\n";  
-  Header += "Refresh: 5\r\n";
+ // Header += "Refresh: 5\r\n";
   
   String Content;
   
   Content = "<body bgcolor=\"#99ff99\" alink=\"#EE0000\" link=\"#0000EE\" text=\"#000000\"vlink=\"#551A8B\">";
   Content += "<title> ESP8266 test </title>";
   Content += "<H1>";
-  Content += "ESP8266 Web Server Test Page </H1> ";
+  Content += "ESP8266 Web Server Dth Rain </H1> ";
   Content +="<p>";
   Content += "temperature: ";
   Content +=String(tempc)+"C";
